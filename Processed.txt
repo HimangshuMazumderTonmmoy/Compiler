@@ -1,0 +1,23 @@
+int subtract(int a, int b)
+{
+    int result = a - b;
+    cout << "Subtracting " << b << " from " << a << ": " << result << endl;
+    return result;
+}
+int add(int a, int b)
+{
+    int result = a + b;
+    cout << "Adding " << a << " and " << b << ": " << result << endl;
+    return result;
+}
+int main()
+{
+    int x = 10, y = a + 2, z;
+    int sum= add(x, y);
+    int difference = subtract(x, y);
+    int pro$duct = x * y;
+    cout << "Multiplying " << x << " and " << y << ": " << product << endl; 
+    int quotient = x / y; 
+    cout << "Dividing " << x << " by " << y << ": " << quotient << endl; 
+    return 0;
+}

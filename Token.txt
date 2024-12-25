@@ -1,0 +1,17 @@
+<int> <Function,0> <(> <int> <ID,0> <,> <int> <ID,1> <)> 
+<{> 
+<int> <ID,2> <=> <ID,0> <-> <ID,1> <;> 
+<cout> <<<> <"Subtracting "> <<<> <ID,1> <<<> <" from "> <<<> <ID,0> <<<> <": "> <<<> <ID,2> <<<> <endl> <;> 
+<return> <ID,2> <;> 
+<}> 
+<int> <Function,1> <(> <int> <ID,3> <,> <int> <ID,4> <)> 
+<{> 
+<int> <ID,5> <=> <ID,3> <+> <ID,4> <;> 
+<cout> <<<> <"Adding "> <<<> <ID,3> <<<> <" and "> <<<> <ID,4> <<<> <": "> <<<> <ID,5> <<<> <endl> <;> 
+<return> <ID,5> <;> 
+<}> 
+<int> <Function,2> <(> <)> 
+<{> 
+<int> <ID,6> <=> <10> <,> <ID,7> <=> <ID,8> <+> <2> <,> <ID,9> <;> 
+<int> <ID,10> <=> <Function,1> <(> <ID,6> <,> <ID,7> <)> <;> 
+<int> <ID,11> <=> <Function,0> <(> <ID,6> <,> <ID,7> <)> <;> 

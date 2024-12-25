@@ -1,0 +1,20 @@
+#include <iostream>
+#include "Library One.txt"
+using namespace std;
+
+//Main function
+int main()
+{
+    int x = 10, y = a + 2, z;
+
+    int          sum= add(x, y);
+    int difference = subtract(x, y);
+
+    int product = x * y;
+    cout << "Multiplying " << x << " and " << y << ": " << product << endl; // heloo my name is king
+
+    int quotient = x / y; // suer nove 
+    cout << "Dividing " << x << " by " << y << ": " << quotient << endl; // hell is coming
+
+    return 0;
+}

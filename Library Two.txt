@@ -1,0 +1,7 @@
+// Function to subtract two numbers and return the result
+int subtract(int a, int b)
+{
+    int result = a - b;
+    cout << "Subtracting " << b << " from " << a << ": " << result << endl;
+    return result;
+}

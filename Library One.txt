@@ -1,0 +1,8 @@
+#include "Library Two.txt"
+// Function to add two numbers and return the result
+int add(int a, int b)
+{
+    int result = a + b;
+    cout << "Adding " << a << " and " << b << ": " << result << endl;
+    return result;
+}
